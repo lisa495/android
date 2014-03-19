@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#355E9E"
+        android:gravity="center"
+        android:text="常用号码查询"
+        android:textColor="#EBC950"
+        android:textSize="23dip" />
+
+    <ExpandableListView
+        android:id="@+id/elv"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </ExpandableListView>
+
+</LinearLayout>

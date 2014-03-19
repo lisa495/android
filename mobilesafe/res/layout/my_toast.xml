@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/call_locate_green"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/iv_toast_icon"
+        android:layout_width="35dip"
+        android:layout_height="35dip"
+        android:src="@drawable/notification" />
+
+    <TextView
+        android:id="@+id/tv_toast_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="消息" />
+
+</LinearLayout>

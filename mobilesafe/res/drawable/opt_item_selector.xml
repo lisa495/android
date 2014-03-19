@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 颜色选择器 定义个图形资源 在不同的选择状态下 会显示出来不同风格的内容 -->
+    <item android:drawable="@drawable/opt_item_normal" android:state_pressed="true"/>
+    <!-- pressed -->
+    <item android:drawable="@drawable/opt_item_normal" android:state_focused="true"/>
+    <!-- focused -->
+    <item android:drawable="@drawable/opt_item_normal" android:state_selected="true"></item>
+    <item android:drawable="@drawable/opt_item_normal" android:state_active="true"></item>
+    <item android:drawable="@drawable/opt_item_pressed"/>
+
+    <!-- default -->
+
+</selector>

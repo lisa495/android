@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:itheima="http://schemas.android.com/apk/res/cn.itheima.mobilesafe"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="45dip"
+        android:background="#355E9E"
+        android:gravity="center"
+        android:text="任务管理设置"
+        android:textColor="#EBC950"
+        android:textSize="23dip" />
+
+    <CheckBox
+        android:id="@+id/cb_task_setting_showsystem"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="显示系统进程" />
+
+    <cn.itheima.mobilesafe.ui.SettingView
+        android:id="@+id/sv_task_setting_autokill"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        itheima:checked_text="已经开启"
+        itheima:title="自动清理内存"
+        itheima:unchecked_text="没有开启" >
+    </cn.itheima.mobilesafe.ui.SettingView>
+
+</LinearLayout>

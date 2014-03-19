@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_title_style">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:background">#355E9E</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:textColor">#EBC950</item>
+        <item name="android:textSize">23dip</item>
+    </style>
+
+    <style name="text_content_style">
+        <item name="android:layout_marginTop">6dip</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="image_star_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:src">@android:drawable/star_big_on</item>
+    </style>
+
+    <style name="image_on_style" parent="@style/image_star_style">
+        <item name="android:src">@android:drawable/presence_online</item>
+        <item name="android:paddingLeft">2dip</item>
+    </style>
+
+    <style name="image_off_style" parent="@style/image_star_style">
+        <item name="android:src">@android:drawable/presence_invisible</item>
+        <item name="android:paddingLeft">2dip</item>
+    </style>
+
+    <style name="button_next_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:drawableRight">@drawable/next</item>
+        <item name="android:background">@drawable/button_bg_selector</item>
+        <item name="android:text">下一步</item>
+        <item name="android:onClick">next</item>
+    </style>
+
+    <style name="button_pre_style" parent="@style/button_next_style">
+        <item name="android:layout_alignParentRight">false</item>
+        <item name="android:layout_alignParentLeft">true</item>
+        <item name="android:text">上一步</item>
+        <item name="android:drawableRight">@null</item>
+        <item name="android:drawableLeft">@drawable/previous</item>
+        <item name="android:onClick">pre</item>
+    </style>
+
+    <style name="Theme" parent="android:Theme"></style>
+
+    <style name="Theme.Transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:colorForeground">#fff</item>
+    </style>
+
+    <style name="my_progress_style" parent="@android:style/Widget.ProgressBar">
+        <item name="android:indeterminateDrawable">@drawable/progress_medium_white</item>
+    </style>
+
+</resources>

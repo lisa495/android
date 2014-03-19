@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="2.手机卡的绑定" />
+
+    <TextView
+        style="@style/text_content_style"
+        android:text="通过绑定SIM卡:\n下次重启手机发现SIM卡变化\n就会发送报警短信" />
+
+    <RelativeLayout
+        android:clickable="true"
+        android:onClick="bindSim"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bind_bg_selector" >
+
+        <TextView
+            style="@style/text_content_style"
+            android:text="点击绑定SIM卡" />
+
+        <ImageView
+            android:id="@+id/iv_setup2_bind"
+            android:layout_width="30dip"
+            android:layout_height="30dip"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/lock" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_off_style" />
+
+        <ImageView style="@style/image_on_style" />
+
+        <ImageView style="@style/image_off_style" />
+
+        <ImageView style="@style/image_off_style" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/bind" />
+
+        <Button style="@style/button_next_style" />
+        
+         <Button style="@style/button_pre_style" />
+    </RelativeLayout>
+
+</LinearLayout>

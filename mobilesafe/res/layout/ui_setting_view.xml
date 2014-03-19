@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dip" >
+
+    <TextView
+        android:id="@+id/tv_settingview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dip"
+        android:layout_marginTop="5dip"
+        android:text="设置的标题"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/tv_settingview_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tv_settingview_title"
+        android:layout_marginLeft="7dip"
+        android:layout_marginTop="5dip"
+        android:text="TextView" />
+
+    <CheckBox
+        android:clickable="false"
+        android:focusable="false"
+        android:id="@+id/checkBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true" />
+
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/listview_devider"
+        android:layout_width="fill_parent"
+        android:layout_height="1dip" >
+    </View>
+
+</RelativeLayout>

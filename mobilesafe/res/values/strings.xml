@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, SplashActivity!</string>
+    <string name="app_name">黑马卫士</string>
+    <string name="sample_device_admin_description">手机防盗的超级管理员,开启后可以锁屏</string>
+    <string name="sample_device_admin">设备管理员</string>
+
+</resources>

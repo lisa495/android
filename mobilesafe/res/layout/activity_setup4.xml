@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="4.恭喜您,设置完成" />
+
+    <TextView
+        style="@style/text_content_style"
+        android:text="强烈建议您开启防盗保护" />
+
+      <TextView
+         android:onClick="activeAdmin"
+         android:clickable="true"
+         android:background="@drawable/bind_bg_selector"
+        style="@style/text_content_style"
+        android:text="点击启用超级管理员权限\n(开启后可以远程锁屏,清除数据)" />
+    <CheckBox 
+        android:id="@+id/cb_setup4_satus"
+          android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="防盗保护没有开启"
+        />
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_off_style" />
+
+        
+
+        <ImageView style="@style/image_off_style" />
+
+        <ImageView style="@style/image_off_style" />
+        
+        <ImageView style="@style/image_on_style" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/bind" />
+
+        <Button style="@style/button_next_style" 
+            android:text="设置完成"
+            />
+        
+         <Button style="@style/button_pre_style" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        style="@style/text_title_style"
+        android:text="1.欢迎使用防盗设置向导" />
+
+    <TextView
+        style="@style/text_content_style"
+        android:text="您的手机防盗卫士:" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/text_content_style"
+            android:text="SIM卡变更报警" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/text_content_style"
+            android:text="GPS追踪" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/text_content_style"
+            android:text="远程销毁数据" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_star_style" />
+
+        <TextView
+            style="@style/text_content_style"
+            android:text="远程锁屏" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ImageView style="@style/image_on_style" />
+
+        <ImageView style="@style/image_off_style" />
+
+        <ImageView style="@style/image_off_style" />
+
+        <ImageView style="@style/image_off_style" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:scaleType="center"
+            android:src="@drawable/setup1" />
+
+        <Button style="@style/button_next_style" />
+    </RelativeLayout>
+
+</LinearLayout>
